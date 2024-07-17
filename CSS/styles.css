@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#fecha {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section Styles */
+.parrafos {
+    margin-bottom: 20px;
+}
+
+.parrafos img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+
+.parrafos p {
+    text-align: justify;
+}
+
+/* Comments Section */
+#comentarios-parte-final {
+    margin-top: 30px;
+    text-align: center;
+    position: relative; 
+}
+
+#boton-compartir {
+    transition: color 0.5s;
+    background-color: #808080; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(110%, -50%);
+}
+
+#boton-enviar {
+    background-color: #808080; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#boton-compartir:hover, #boton-enviar:hover {
+    background-color: #696969; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #808080;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*esto es un comentario*/
